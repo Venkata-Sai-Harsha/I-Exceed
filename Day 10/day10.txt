@@ -219,6 +219,16 @@ void main() {
 
 
 
+BigINTEGER:
+we can use big integer which is greater than the 2power63-1 and less than 2power63
+
+void main(){
+  BigInt x=BigInt.parse('987654321987654321');
+  print(x);
+//   int y=987654321987654321;
+}
+
+
 Records:
 A record is a fixed-size, immutable collection of values, which can be either:
  
